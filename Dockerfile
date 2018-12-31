@@ -35,7 +35,7 @@ LABEL caddy_version="0.11.1"
 ENV ENABLE_TELEMETRY="false"
 
 # Let's Encrypt Agreement
-ENV ACME_AGREE="false"
+ENV ACME_AGREE="true"
 
 RUN apk add --no-cache openssh-client git tar curl
 
